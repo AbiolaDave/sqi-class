@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  /* height: ; */
+}
+.nav {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+/* .list{
+    display: flex !important;
+} */
+
+.list li {
+  list-style: none;
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+  /* display: flex; */
+}
+
+.items {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
